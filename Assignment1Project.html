@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Assignment 1: Reviews</title>
+	<link rel="stylesheet" type="text/css" href="Assignment1CSS.css">
+	<script type="text/javascript" src="Assignment1JS.js"></script>
+</head>
+<body>
+	<div id="navbar">
+		<p id="name">brent hanover</p>
+		<ul>
+			<li><a href="Assignment1Home.html">Home</a></li>
+			<li><a href="Assignment1About.html">About</a></li>
+			<li class="active"><a href="Assignment1Project.html">Reviews</a></li>
+			<li><a href="Assignment1Assignment.html">Assignment</a></li>
+		</ul>
+
+	</div>
+
+	<div class="reviewForm">
+		<h1>Leave a review:</h1>
+		<form class="inputForm">
+			<input type="text" class="reviewInput" id="reviewMessage" placeholder="Your Message" required="required" pattern="[A-Za-Z0-9]{1,500}">
+			<input type="text" class="reviewInput" id="reviewName" placeholder="Your Name" required="required" pattern="[A-Za-Z]{1,30}">
+			<input type="reset" class="formButton" id="addReview" value="Submit" onclick="addListItem();">
+		</form>
+
+	</div>
+
+
+	<div class="testimonials">
+
+		<ul id="messageList">
+		</ul>
+
+		<input id="reset" class="formButton" type="button" value="CLEAR LIST" onclick="removeListItem();">	
+	</div>
+
+</body>
+</html>

@@ -1,0 +1,214 @@
+/* BODY */
+
+body {
+	background-image: url("https://i.imgur.com/3Tj47Tv.jpg");
+	background-size: 100%;
+	margin: 0;
+	font-family: 'Montserrat', sans-serif;
+}
+
+/* NAVBAR */
+
+#navbar {
+	background: white;
+	margin: 0;
+	padding: 0;
+}
+
+.sticky {
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+
+#name {
+	padding: 10px 30px;
+	margin-top: 0;
+	color: gray;
+	text-transform: uppercase;
+	letter-spacing: .25em;
+}
+
+#navbar ul {
+  font-weight: 200;
+  list-style-type: none;
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+}
+
+#navbar ul li {
+	float: left;
+	background: #333;
+	width: 25%;
+	text-transform: uppercase;
+}
+
+#navbar ul li a {
+	display: block;
+	text-align: center;
+	padding: 15px 15px;
+	color: white;
+	text-decoration: none;
+}
+
+div ul li a:hover {
+	background: black;
+}
+
+#navbar .active {
+	background: #4CAF50;
+}
+
+/* WELCOME MESSAGE */
+.centre {
+	margin: auto;
+	margin-top: 5%;
+	width: 50%;
+	padding: 5%10px;
+	background: #babfc6;
+	text-align: center;
+	border: solid 3px gray;
+	border-radius: 20px;
+}
+
+.centre p:first-child {
+	font-size: 4vw;
+}
+
+.centre p {
+	font-size: 3vw;
+	font-weight: 500;
+}
+
+/* MESSAGE LIST */
+.testimonials {
+	margin: auto;
+	margin-top: 10%;
+	width: 40%;
+	padding: 5%10px;
+	background: #babfc6;
+	text-align: left;
+	border: solid 3px gray;
+	border-radius: 20px;
+	font-size: 1.5vw;
+	font-weight: 500;
+	margin-bottom: 100px;
+}
+
+.quoter {
+	text-align: right;
+	list-style: none;
+	font-size: 120%;
+	margin: 20px 10px;
+}
+
+#reset {
+	width: 100%;
+}
+
+.formButton {
+	text-align: center;
+	width: 30%;
+	margin-top: 20px;
+	margin: auto;
+	padding: 20px;
+	font-size: 1.5em;
+	border-radius: 20px;
+}
+
+.formButton:hover {
+	background: #333;
+	color: white;
+}
+
+.inputForm {
+	display: grid;
+	padding: 0 10%;
+	box-sizing: border-box;
+	resize: both;
+}
+
+.inputForm:focus {
+	border: 3px solid #555;
+}
+
+.reviewForm {
+	text-align: center;
+}
+
+#addReview {
+	margin-top: 20px;
+}
+
+/* ABOUT PAGE */
+h2 {
+	text-align: center;
+	padding: 30px;
+	display: grid;
+	margin: 0;
+}
+
+.frame {
+	background: white;
+	width: 100%;
+	margin: auto;
+	align-self: center;
+}
+
+.frame a {
+	width: 30%;
+	margin: 1.66%;
+	text-align: center;
+	text-decoration: none;
+	float: left;
+	font-size: 2em;
+}
+
+a:hover {
+	color: blue;
+}
+
+#blank {
+	background-image: none;
+}
+
+img {
+	width: 30%;
+	float: left;
+	margin: 1.66%;
+}
+
+.instatable {
+	display: table;
+	width: 100%;
+	table-layout: fixed;
+	padding: 10px;
+}
+
+.instapost {
+	display: table-cell;
+	width: 20px;
+	padding: 10px;
+}
+
+/* ASSIGNMENT PAGE */
+
+#note1 {
+	width: 60%;
+	text-align: right;
+	padding: 10px;
+	margin-top: 10px;
+}
+
+#cssp {
+	margin: 30px;
+	width: 30%;
+	background: white;
+	border: 2px solid gray;
+	border-radius: 10px;
+	padding: 1em;
+	font-size: 120%;
+	font-weight: 400;
+}
+
